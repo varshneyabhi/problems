@@ -17,3 +17,5 @@
   (let [s (sort comp-< x)
         p (reduce #(str %1 %2) "" s)]
     (println p)))
+
+(create-largest-num [54 546 548 60])
