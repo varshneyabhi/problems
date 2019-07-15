@@ -3,6 +3,8 @@
 ;;;; This may not be best or optimized way, but it works. :)
 ;;;; Next step, process each set of recursion parallelly to speed up.
 
+(ns solution100)
+
 (def final-val    100)  ; Expected value
 (def max-iter-val 10)   ; Iteration should run from 1 to 9
 (def min-iter-val 1)
