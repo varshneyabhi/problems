@@ -1,5 +1,7 @@
 ;;;; Write a program that outputs all possibilities to put + or - or nothing between the numbers 1,2,…,9 (in this order) 
 ;;;; such that the result is 100. For example 1 + 2 + 3 - 4 + 5 + 6 + 78 + 9 = 100.
+;;;; This may not be best or optimized way, but it works. :)
+;;;; Next step, process each set of recursion parallelly to speed up.
 
 (def final-val    100)  ; Expected value
 (def max-iter-val 10)   ; Iteration should run from 1 to 9
