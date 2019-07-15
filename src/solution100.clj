@@ -17,10 +17,11 @@
 (defn print-eq 
   ;; Convert + and - symbols to String form.
   [x]
-  (let [p (map (fn[a] (cond 
-                        (= a +) "+"
-                        (= a -) "-"
-                        :else a)) x)]
+  (let [p (map (fn[a] 
+                 (cond 
+                   (= a +) "+"
+                   (= a -) "-"
+                   :else a)) x)]
     (println p)))
 
 (defn eval-and-print 
