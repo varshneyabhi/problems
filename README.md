@@ -20,3 +20,13 @@ Some problems and solutions which I solve just for fun.
  * (+ 123 - 4 - 5 - 6 - 7 + 8 - 9)
  * (+ 123 - 45 - 67 + 89)
  * (- 1 + 2 - 3 + 4 + 5 + 6 + 78 + 9)
+
+
+## largestvalue.clj
+  Given an array of numbers, arrange them in a way that yields the largest value. For example, if the given numbers are {54, 546, 548, 60}, the arrangement 6054854654 gives the largest value. And if the given numbers are {1, 34, 3, 98, 9, 76, 45, 4}, then the arrangement 998764543431 gives the largest value.
+  
+  ### Running
+  Execute using `clj largestvalue.clj`.
+  
+  #### Output
+  On input [54 546 548 60], output will be 6054854654.
