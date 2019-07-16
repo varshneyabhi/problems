@@ -30,3 +30,17 @@ Some problems and solutions which I solve just for fun.
   
   #### Output
   On input [54 546 548 60], output will be 6054854654.
+  
+  ## channels
+   This implements golang like channels for c++ threads. This was implemented for my one small utility and made my communication part very easy. Some properties are:
+   * Generic channels.
+   * Block if queue is empty.
+   * push and get to send and receive from channels.
+   * Threadsafe.
+   
+   This implementation might have few bugs and less functionalities, but it solved my purpose :).
+    
+   ### Running
+   `make`
+      
+   
